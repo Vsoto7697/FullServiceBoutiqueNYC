@@ -14,4 +14,8 @@ router.post('/items', async (req, res) => {
   res.send(item);
 });
 
+app.get('/', (req, res) => {
+  res.render('index', { title: 'My App', message: 'Welcome to my app!' });
+});
+
 module.exports = router;

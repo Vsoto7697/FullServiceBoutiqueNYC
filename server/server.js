@@ -1,9 +1,17 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const handlebars = require('handlebars');
 const cors = require('cors');
 const routes = require('./routes');
 
+
+
+// Set Handlebars as the default templating engine.
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
+
 const app = express();
+
 
 // Enable CORS
 app.use(cors());
