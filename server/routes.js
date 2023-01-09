@@ -14,6 +14,25 @@ router.post('/items', async (req, res) => {
   res.send(item);
 });
 
+router.post('/login', (req, res) => {
+  const email = req.body.email;
+  const password = req.body.password;
+
+  User.findOne({ email: email }, (err, user) => {
+    if (err) {
+      return res.status(500).send();
+    }
+    if (!user) {
+      return res.status(404).send();
+    }
+    if (user.password !== password) {
+      return res.status(401).send();
+    }
+    // User has been authenticated
+  });
+});
+
+
 app.get('/', (req, res) => {
   res.render('index', { title: 'My App', message: 'Welcome to my app!' });
 });

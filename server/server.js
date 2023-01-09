@@ -6,12 +6,14 @@ const routes = require('./routes');
 
 
 
+
 // Set Handlebars as the default templating engine.
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 const app = express();
 
+app.use('/', router);
 
 // Enable CORS
 app.use(cors());
