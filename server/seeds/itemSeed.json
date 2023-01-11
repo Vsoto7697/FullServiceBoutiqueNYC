@@ -1,0 +1,94 @@
+[
+    { 
+        "name": "Hershey's Wafers Chocobananana",
+        "price": 6.00
+    },
+    { 
+        "name": "Hershey's Wafers Assorted",
+        "price": 10.00
+    },
+    { 
+        "name": "Hershey's Choco Cream Sandwich",
+        "price": 15.00
+    },
+    { 
+        "name": "Cheetoh's Egypt",
+        "price": 8.00
+    },
+    { 
+        "name": "Ruffles Cured Ham",
+        "price": 8.00
+    },
+    { 
+        "name": "Lays Thailand",
+        "price": 7.00
+    },
+    { 
+        "name": "Lays Taiwan",
+        "price": 5.00
+    },
+    { 
+        "name": "Doritos Japan",
+        "price": 7.00
+    },
+    { 
+        "name": "Doritos Taiwan",
+        "price": 5.00
+    },
+    { 
+        "name": "Pringles Small",
+        "price": 6.00
+    },
+    { 
+        "name": "Pringles Assorted",
+        "price": 10.00
+    },
+    { 
+        "name": "Oreo S'mores",
+        "price": 10.00
+    },
+    { 
+        "name": "Oreo Choco Peanut Butter Pie",
+        "price": 10.00
+    },
+    { 
+        "name": "Oreo Enrobed Chocolate",
+        "price": 8.00
+    },
+    { 
+        "name": "Oreo Wafe Rolls Assorted",
+        "price": 6.00 
+    },
+    { 
+        "name": "Oreo Honey Peach and Grape",
+        "price": 6.00 
+    },
+    { 
+        "name": "Nestle Passatempo and Galak",
+        "price": 10.00 
+    },
+    { 
+        "name": "Bounty Cookies",
+        "price": 10.00 
+    },
+    { 
+        "name": "Nestle Passatempo and Galak",
+        "price": 5.00 
+    },
+    { 
+        "name": "Oreo Greenn Plum",
+        "price": 15.00 
+    },
+    { 
+        "name": "Ritz Salted Caramel",
+        "price": 6.00 
+    },
+    { 
+        "name": "Chips Ahoy Soft Baked",
+        "price": 10.00 
+    },
+    { 
+        "name": "Chips Ahoy Chips Ahoy Coffee China",
+        "price": 10.00 
+    }
+]
