@@ -1,0 +1,57 @@
+body{
+    background-color: #CAF2FF;
+    text-align: center;
+    list-style-type: none;  
+    
+}
+
+ul > li {
+    display: inline-block;
+}
+
+.description{
+    background-color: #FF4040;
+}
+.center_shopping li{
+    display: inline-block;
+    width: 30%;
+    background-color: white;
+    border-radius: 5%;
+    margin: 3px;
+}
+.center_shopping li{
+    display: inline-block;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 3px;
+}
+.center_shopping li:hover{
+    background-color: #98FB98;
+}
+
+.lower{
+    padding-top: 50px;
+    display: flex;
+    background-color: #FFFFFF;
+    
+}
+.left{
+    float: left;
+    width: 50%;
+}
+.right{
+    float: right;
+    width: 50%;
+    
+}
+.important_info li{
+    width: 70px;
+    display: inline-block;
+}
+ul li img{
+    width: 141px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: black;
+}
