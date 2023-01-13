@@ -1,0 +1,146 @@
+body{
+    background-color: #CAF2FF;
+    text-align: center;
+    list-style-type: none;  
+    
+}
+/*Bettina*/
+
+.flex-container {
+    display: flex;
+    height: 15px;
+    align-items: center;
+}
+
+.flex-container a {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#facebook-instagram {
+    width: 33.33%;
+    float: left;
+    background-color: black;
+}
+#facebook-instagram a {
+    float: left;
+    width: 10%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#subscribe {
+    width: 33.33%;
+    margin: 0 auto;
+    background-color: black;
+}
+#subscribe a {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+
+#subscribe i {
+    align-items: center;
+}
+
+#sign-in {
+    width: 33.33%;
+    float: right;
+    background-color: black;
+}
+#sign-in a {
+    float: right;
+    width: 25%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.flex-containers {
+    display: flex;
+    height: 120px;
+    align-items: center;
+}
+
+
+#logo {
+    text-align: left;
+    display: inline-block;
+}
+
+#menu ul > li {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration:underline;
+    font-size: 15px;
+
+}
+
+#search {
+    text-align: right;
+    float: right;
+    padding-left:6rem;
+    padding-right: 8rem;
+}
+
+/*old menu
+ul > li {
+    display: inline-block;
+    justify-content: center;
+    width: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 12px;
+}*/
+
+#full-service{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 50px;
+}
+.description{
+    background-color: #FF4040;
+    height: 60px;
+    width: 900px;
+    display:inline-block;
+}
+.description p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.center_photos li{
+    display: inline-block;
+    width: 25%;
+    padding-top: 50px;
+}
+.lower{
+    padding-top: 50px;
+    display: flex;
+    background-color: #FFFFFF;
+    
+}
+.left{
+    float: left;
+    width: 50%;
+}
+.right{
+    float: right;
+    width: 50%;
+    
+}
+.important_info li{
+    width: 70px;
+    display: inline-block;
+}
+ul li img{
+    width: 141px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: black;
+}
